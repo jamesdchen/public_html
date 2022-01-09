@@ -1,0 +1,53 @@
+body {
+    background: lightgray;
+    color: darkslategray;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+
+h1 {
+    font-family: 'Roboto Slab', 'serif';
+}
+
+h2 {
+    font-family: 'Roboto Slab','serif';
+}
+
+h3 {
+    font-family: 'Roboto Slab','serif';
+}
+
+.line {
+    height: .5vh;
+    background-color: darkslategray;
+}
+
+p {
+    font-family: 'Roboto', 'serif';
+    text-align: center;
+}
+
+a {
+    color: darkslategray;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.project-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-img { 
+    height: 20vh;
+}
