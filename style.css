@@ -62,7 +62,6 @@ a:hover {
     height: 4vh;
 }
 
-.align-icon{
-    display: flex;
-    align-items: flex-end;
+.email-img {
+    height: 2.5vh;
 }
