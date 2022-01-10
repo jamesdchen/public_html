@@ -70,6 +70,17 @@ a:hover {
     height: 3vh;
 }
 
+.about-me {
+    display: flex;
+    flex-direction: row;
+}
+
 .text {
     text-align: left;
+    margin-left: 5vh;
+    font-size: 3vh;
+}
+
+.me-pic {
+    height: 75vh;
 }
