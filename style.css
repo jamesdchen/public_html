@@ -69,3 +69,7 @@ a:hover {
 .phone-img {
     height: 3vh;
 }
+
+.text {
+    text-align: left;
+}
