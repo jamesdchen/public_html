@@ -27,9 +27,19 @@ p {
     text-align: center;
 }
 
+ul {
+    font-family: 'Roboto', 'serif';
+    margin-top: auto;
+}
+
+li {
+    font-family: 'Roboto', 'serif';
+}
+
 a {
     color: darkslategray;
     text-decoration: none;
+    font-family: 'Roboto', 'serif';
 }
 
 a:hover {
@@ -40,7 +50,7 @@ a:hover {
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 .project-block {
@@ -48,7 +58,7 @@ a:hover {
     flex-direction: column;
 }
 
-.project-img { 
+.project-img {
     height: 20vh;
 }
 
@@ -60,14 +70,6 @@ a:hover {
 
 .contact-img {
     height: 4vh;
-}
-
-.email-img {
-    height: 2.5vh;
-}
-
-.phone-img {
-    height: 3vh;
 }
 
 .about-me {
@@ -83,4 +85,12 @@ a:hover {
 
 .me-pic {
     height: 75vh;
+}
+
+.videos {
+    margin: auto;
+}
+
+.title-spacer {
+    width: 2000px;
 }
